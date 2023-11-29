@@ -1,0 +1,186 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #0a2842;
+    padding: 1% 0;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.4em;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #d1e7f7;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+        color: white;
+}
+
+#home {
+    background: url(img/pozadi.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.btn-default {
+    color: #0a2842;
+    background: inherit;
+    box-shadow: 1px 2px 7px #000000;
+    margin-top: 60px;
+    padding: 10px 40px 10px 40px;
+}
+
+.btn-default:hover {
+color: white;
+background: inherit;
+}
+
+.landing-text {
+    color: white;
+    padding-top: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 600;
+}
+
+.padding {
+    padding: 90px 0;
+}
+
+.padding img{
+width: 100%;
+}
+
+#fixed {
+    background: url(img/pozadi2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 75%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: #0a2842;
+    padding: 3% 3% 5% 3%;
+    color: #d1e7f7;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #e1e2f5;
+}
+
+.fa:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.glyphicon {
+    padding: 8px;
+    font-size: 25px;
+    color: #e1e2f5;
+}
+
+.glyphicon {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .fa {
+         font-size: 20px;
+         padding: 10px;
+    }
+}
+
+.index-form {
+    background-color: #d1e7f7;
+    padding-top: 90px;
+    padding-bottom:40px;
+    
+
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.form-control {
+    font-size: medium;
+}
+
+.obrform {
+    padding-top: 90px;
+}
+
+.img-responsive {
+    padding-top: 40px;
+}
+
+h2, h3, th {
+    text-align: center;
+}
+
+.balicek {
+    border-block: solid;
+    border-block-color: #d1e7f7;
+    border-bottom-style: double;
+    writing-mode: horizontal-tb;
+    font-size: medium;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.progress {
+    height: 40px;
+}
+
+.btn-primary {
+    width: 200px;
+}
+
+.uvodtext {
+    padding-top: 30px;
+}
+
+.btn1 {
+    color: white;
+}
+
+.btn2 {
+    color: black;
+}
+
+.btn3 {
+    margin-bottom: 35px;
+}
+
+.btn {
+    margin-top: 25px;
+}
+
+#countries {
+    margin-bottom: -40px;
+}
